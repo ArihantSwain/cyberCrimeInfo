@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
 body {
   font-family: Montserrat, sans-serif;
   color: #1a1b1f;
   font-size: 16px;
   line-height: 28px;
   font-weight: 400;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(136, 175, 207);
 }
 
 h1 {
@@ -56,4 +61,44 @@ h6 {
 
 p {
   margin-bottom: 10px;
+}
+
+.mainNav {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  display: flex;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+}
+
+.logo {
+  width: 5%;
+  margin: auto;
+}
+
+.navItem {
+  display: inline;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 20px;
+}
+
+.navItem:hover {
+  cursor: pointer;
+  text-decoration: w;
+}
+
+a {
+  all: unset;
 }

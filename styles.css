@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Khula&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #edf0f1;
+}
 
 body {
   font-family: Montserrat, sans-serif;
@@ -63,41 +70,59 @@ p {
   margin-bottom: 10px;
 }
 
-.mainNav {
-  margin: 0px;
-  padding: 0px;
-  background-color: white;
-  display: flex;
+li, a, button {
+  font-family: 'Khula', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #24252a;
+  text-decoration: none;
 }
 
-.header {
-  margin: 0;
-  padding: 0;
+header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
 }
 
 .logo {
-  width: 5%;
-  margin: auto;
+  width: 75px;
+  cursor: pointer;
 }
 
-.navItem {
-  display: inline;
-  color: black;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-family: 'Julius Sans One', sans-serif;
+.navLinks {
+  list-style: none;
+}
+
+.navLinks li {
+  display: inline-block;
+}
+
+.navLinks a {
+  transition: all 0.3s ease 0s;
+  padding: 0px 25px;
   font-size: 20px;
 }
 
-.navItem:hover {
-  cursor: pointer;
-  text-decoration: w;
+.navLinks a:hover {
+  color:#0088a9;
 }
 
-a {
-  all: unset;
+button {
+  padding: 8px 25px;
+  background-color: rgba(0,136,169,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
+  padding-top: 11px;
 }
+
+button:hover {
+  background-color: rgba(0, 136, 169, 1);
+}
+
+
+
+

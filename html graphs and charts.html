@@ -1,33 +1,34 @@
 <html>
-    <head>
-        <title>Cyber Crime Graphs</title>
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
+      google.charts.load('current', {'packages':['bar']});
       google.charts.setOnLoadCallback(drawChart);
 
       function drawChart() {
-
         var data = google.visualization.arrayToDataTable([
-          ['Task', 'Hours per Day'],
-          ['Work',     11],
-          ['Eat',      20],
-          ['Commute',  2],
-          ['Watch TV', 2],
-          ['Sleep',    7]
+          ['Year', 'Identity Theft Complaints', 'Fraud Complaints', 'Other Complaints'],
+          ['2017', 370915, 1310003, 1247309],
+          ['2018', 444339, 1522834, 1202864],
+          ['2019', 650523, 1862871, 956682],
+          ['2020', 1388540, 2277130, 1251666],
+          ['2021', 1434676, 2798161, 1539816]
         ]);
 
         var options = {
-          title: 'My Daily Activities'
+          chart: {
+            title: 'Identity Theft and Fraud Reports source: Insurance Information Institute',
+            subtitle: 'Identity Theft complaints, Fraud complaints, other complaints to the FBI, 2017-2021' 
+          }
         };
 
-        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
 
-        chart.draw(data, options);
+        chart.draw(data, google.charts.Bar.convertOptions(options));
       }
     </script>
-    </head>
-    <body>
-        <div id="piechart" style="width: 900px; height: 500px;"></div>
-    </body>
+  </head>
+  <body>
+    <div id="columnchart_material" style="width: 800px; height: 500px;"></div>
+  </body>
 </html>

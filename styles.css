@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Khula&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Khula&family=Poppins:wght@500&display=swap');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color:rgb(136, 175, 207);
+  background-color:rgb(255, 255, 255);
 }
 
 body {
@@ -15,7 +15,7 @@ body {
   font-weight: 400;
   padding: 0;
   margin: 0;
-  background-color: rgb(136, 175, 207);
+  background-color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -129,6 +129,43 @@ button:hover {
   background-color: rgba(0, 136, 169, 1);
 }
 
+.herosection {
+  padding-bottom: 3%;
+  background-color: rgb(230, 230, 230);;
+}
 
+.herophoto {
+  margin-top: 3%;
+  margin-left: 6%;
+  box-shadow: 10px 10px 6px rgb(197, 197, 197);
+  transition: all 0.30s ease;
+  display: inline-flex;
+}
+
+.herophoto:hover {
+  box-shadow: 15px 15px 6px rgb(155, 155, 155);
+}
+
+.mainText {
+  display: inline-flex;
+  float: right;
+  background-color: rgb(230, 230, 230);
+  margin-right: 7%;
+  margin-top: 5%;
+  font-size: 70px;
+  color: #44a9d8be;
+  font-family: 'Poppins', sans-serif;
+  width: 750px;
+  line-height: 75px;
+}
+
+.highlight {
+  background-color: white;
+}
+
+.descText {
+  display: inline-flex;
+  float: right;
+}
 
 

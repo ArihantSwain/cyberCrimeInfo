@@ -4,10 +4,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color:rgb(255, 255, 255);
 }
 
-body {
+body, html {
   font-family: Montserrat, sans-serif;
   color: #1a1b1f;
   font-size: 16px;
@@ -16,56 +15,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: rgb(255, 255, 255);
-}
-
-h1 {
-  font-size: 44px;
-  line-height: 62px;
-  font-weight: 400;
-}
-
-h2 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 36px;
-  line-height: 50px;
-  font-weight: 400;
-}
-
-h3 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 30px;
-  line-height: 46px;
-  font-weight: 400;
-}
-
-h4 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 24px;
-  line-height: 38px;
-  font-weight: 400;
-}
-
-h5 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 20px;
-  line-height: 34px;
-  font-weight: 500;
-}
-
-h6 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 16px;
-  line-height: 28px;
-  font-weight: 500;
-}
-
-p {
-  margin-bottom: 10px;
+  height: 100%;
 }
 
 li, a, button {
@@ -126,46 +76,29 @@ button {
 }
 
 button:hover {
-  background-color: rgba(0, 136, 169, 1);
+  background-color: rgba(0, 136, 169, 0.8);
 }
 
-.herosection {
-  padding-bottom: 3%;
-  background-color: rgb(230, 230, 230);;
+.heroImage {
+  background-color: none;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero.jpg");
+  height: 75%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
 }
 
-.herophoto {
-  margin-top: 3%;
-  margin-left: 6%;
-  box-shadow: 10px 10px 6px rgb(197, 197, 197);
-  transition: all 0.30s ease;
-  display: inline-flex;
-}
-
-.herophoto:hover {
-  box-shadow: 15px 15px 6px rgb(155, 155, 155);
-}
-
-.mainText {
-  display: inline-flex;
-  float: right;
-  background-color: rgb(230, 230, 230);
-  margin-right: 7%;
-  margin-top: 5%;
-  font-size: 70px;
-  color: #44a9d8be;
+.heroText {
+  text-align: left;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  color: white;
+  width: 30%;
+  font-size:7vh;
+  line-height: 100%;
   font-family: 'Poppins', sans-serif;
-  width: 750px;
-  line-height: 75px;
+  box-shadow: 3px 0px 0px rgba(0,136,169,1);
 }
-
-.highlight {
-  background-color: white;
-}
-
-.descText {
-  display: inline-flex;
-  float: right;
-}
-
-

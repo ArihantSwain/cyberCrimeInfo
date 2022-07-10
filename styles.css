@@ -102,3 +102,67 @@ button:hover {
   font-family: 'Poppins', sans-serif;
   box-shadow: 3px 0px 0px rgba(0,136,169,1);
 }
+
+.Title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  background-color: #edf0f1;
+  text-align: center;
+  float: center;
+  margin-top: 85px;
+  margin-bottom: 90px;
+}
+
+.panelText {
+  text-shadow: 2px 2px rgb(161, 161, 161);
+  color: rgb(0, 136, 169);
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  background-color: rgb(190, 186, 186);
+  border-style: inset; 
+}
+
+
+.card {
+  display: inline-block;
+  width: 400px;
+  white-space: initial;
+  background-color: rgb(255, 255, 255);
+  height: 95%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px rgb(177, 174, 174);
+  margin-right: 5px;
+  margin-left: 5px;
+  transition: all 0.30s ease;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 10px rgb(91, 127, 129);
+}
+
+.imageCard {
+  width: 400px;
+  height: 400px;
+  object-fit: cover; 
+  vertical-align: bottom;
+}
+
+.cardTitle {
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.cardDesc {
+  text-align: center;
+  line-height: 18px;
+  margin-bottom: 10px;
+  font-style: italic;
+}

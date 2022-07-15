@@ -166,3 +166,10 @@ button:hover {
   margin-bottom: 10px;
   font-style: italic;
 }
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 30vh;
+  margin-top: 30px;
+}

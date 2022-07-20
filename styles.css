@@ -180,7 +180,6 @@ button:hover {
 .title {
   text-align: center;
   font-size: 30px;
-  margin-right: 5%;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -260,4 +259,22 @@ article {
   margin-top: 30px;
   font-size: 28px;
   font-style: italic;
+}
+
+.infoPane {
+  width: 30%;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 5%;
+  height: 60%;
+  border-radius: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxcTaLs9HzKuwJ4p4aL19G9mcu9eUgz5a_FQ&usqp=CAU");
+  background-position: center;
+  background-size: cover;
+}
+
+.factImage {
+  width: 25%;
+  display: flex;
+  float: right;
 }

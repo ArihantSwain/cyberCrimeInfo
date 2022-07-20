@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Khula&family=Poppins:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  font-family: Montserrat, sans-serif;
+  color: #1a1b1f;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  background-color: #9e9fa08c;
+  height: 100%;
+}
+
+
+li, a, button {
+  font-family: 'Khula', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #24252a;
+  text-decoration: none;
+  background-color: #edf0f1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #edf0f1;
+}
+
+.logo {
+  width: 75px;
+  cursor: pointer;
+  background-color: #edf0f1;
+}
+
+.navLinks {
+  list-style: none;
+  color: #edf0f1;
+  background-color: #edf0f1;
+}
+
+.navLinks li {
+  display: inline-block;
+  color: #edf0f1;
+  background-color: #edf0f1;
+}
+
+.navLinks a {
+  transition: all 0.3s ease 0s;
+  padding: 0px 25px;
+  font-size: 20px;
+  background-color: #edf0f1;
+}
+
+.navLinks a:hover {
+  color:#0088a9;
+}
+
+button {
+  padding: 8px 25px;
+  background-color: rgba(0,136,169,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
+  padding-top: 11px;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.heading {
+  text-align: center;
+  margin-right: 4.5%;
+}
+
+.resourceTitle {
+
+}
+
+.divider {
+  background-color: rgb(124, 124, 124);
+  margin-bottom: 2%;
+  height: 15px;  
+}
+
+
+
+.row {
+  margin-left: 2%;
+  margin-right: 5%;
+  width: 100%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 80vh
+}
+
+.left {
+  width: 33%;
+}
+
+.right {
+  width: 65%;
+  margin-right: 2%;
+  margin-bottom: 2vh;
+}
+
+.mapembed {
+  width: 100%;
+  height: 100%;
+
+}

@@ -287,6 +287,8 @@ article {
   font-family: 'Poppins', sans-serif;
   margin-bottom: 2%;
   color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
 }
 
 .storySection#one {
@@ -300,7 +302,7 @@ article {
   background-size: cover;
   background-position: center;
 }
-
+ 
 .storySection#three {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("assets/blur3.jpg");
   background-size: cover;
@@ -328,4 +330,36 @@ article {
 .allStories {
   background-color: #9e9fa08c;
   padding-top: 2%;
+}
+
+.embed {
+  width: 45%;
+  height: 90vh;
+  display: inline-block;
+  border: none;
+}
+
+.forms {
+  margin-left: 7%;
+  overflow-y: hidden;
+}
+
+.background {
+  background-image: url("https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.titleCard {
+  background-image: url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  height: 10vh;
+  align-items: center;
+  display: flex;
+}
+
+.fire {
+  margin-left: 26.4%;
+  margin-right: 20%;
+  font-size: 8vh;
+  text-shadow: 3px 3px 10px rgb(128, 128, 128); 
 }

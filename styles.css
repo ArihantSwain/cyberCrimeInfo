@@ -278,3 +278,54 @@ article {
   display: flex;
   float: right;
 }
+
+.storySection {
+  width: 90%;
+  margin-left: 5%;
+  border: 2px solid black;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 2%;
+  color: white;
+}
+
+.storySection#one {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("assets/blur1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.storySection#two {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.5)), url("assets/blur2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.storySection#three {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("assets/blur3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.storySection#four {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("assets/blur4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.story {
+  margin-top: 10px;
+  font-family: 'Khula', sans-serif;
+  font-size: 20px;
+}
+
+.divider {
+  background-color: rgb(124, 124, 124);
+  margin-bottom: 0%;
+  height: 15px;  
+}
+
+.allStories {
+  background-color: #9e9fa08c;
+  padding-top: 2%;
+}

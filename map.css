@@ -19,7 +19,7 @@ body, html {
 }
 
 
-li, a, button {
+li, .navLinks > a, button {
   font-family: 'Khula', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -27,6 +27,7 @@ li, a, button {
   text-decoration: none;
   background-color: #edf0f1;
 }
+
 
 header {
   display: flex;
@@ -85,17 +86,43 @@ button:hover {
   margin-right: 4.5%;
 }
 
-.resourceTitle {
+.title {
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #FCF6F5FF;
+  font-size: 3vh;
+  line-height: 70px;
+  overflow:hidden;
+}
 
+.infoText {
+  font-size: 20px;
+  margin-left: 10px;
+  font-family: 'Khula', sans-serif;
+  color: #89ABE3FF;
+  text-shadow: 1px;
+  margin-right: 3px;
+  margin-top: 15px;
+  border: 2px solid white;
+  width: 90%;
+  height: 65vh;
+  text-shadow: 1px 1px black;
+  overflow-y: scroll;
+}
+
+.infoText > p {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
 }
 
 .divider {
   background-color: rgb(124, 124, 124);
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   height: 15px;  
 }
-
-
 
 .row {
   margin-left: 2%;
@@ -112,21 +139,59 @@ button:hover {
 .column {
   float: left;
   padding: 10px;
-  height: 80vh
+  height: 77vh;
+  overflow: hidden;
 }
 
 .left {
-  width: 33%;
+  width: 31%;
+}
+
+.left2 {
+  width: 65%;
+  margin-left: 0.5%;
+  margin-bottom: 2vh;
+  margin-right: 2%;
+}
+
+.left3 {
+  width: 49%;
 }
 
 .right {
   width: 65%;
-  margin-right: 2%;
+  margin-right: 4%;
   margin-bottom: 2vh;
+}
+
+.right2 {
+  width: 31%;
+}
+
+.right3 {
+  width: 49%;
 }
 
 .mapembed {
   width: 100%;
   height: 100%;
+  border: 2px solid white;
+}
 
+.mapembed2 {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.bigTitle {
+  text-align: center;
+  font-size: 7vh;
+  color: black;
+  margin-bottom: 2vh;
+}
+
+.websites {
+  padding-top: 2vh;
+  background-color: whitesmoke;
 }

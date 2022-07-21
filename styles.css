@@ -111,6 +111,7 @@ button:hover {
   float: center;
   margin-top: 85px;
   margin-bottom: 90px;
+  line-height: 90px;
 }
 
 .title2 {
@@ -248,6 +249,7 @@ article {
   font-size: 90px;
   margin-top: 20px;
   transition: all 0.30s ease;
+  line-height: 90px;
 }
 
 .left-text:hover {
